@@ -274,7 +274,6 @@ export default {
         // 文本框中输入的值
         item.inputValue = "";
       });
-      console.log(data.data);
       if (this.activeName == "many") {
         this.manyTableData = data.data;
       } else {

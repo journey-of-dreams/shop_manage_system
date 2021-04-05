@@ -10,6 +10,8 @@ const Rights = () => import('@/components/home/power/Rights')
 const Roles = () => import('@/components/home/power/Roles')
 const Cate = () => import('@/components/home/goods/Cate')
 const Params = () => import('@/components/home/goods/Params')
+const List = () => import('@/components/home/goods/List')
+const Add = () => import('@/components/home/goods/Add')
 
 const routes = [{
         path: '',
@@ -54,6 +56,16 @@ const routes = [{
                 path: '/params',
                 name: 'Params',
                 component: Params
+            },
+            {
+                path: '/goods',
+                name: 'List',
+                component: List
+            },
+            {
+                path: '/goods/add',
+                name: 'Add',
+                component: Add
             },
         ]
     },

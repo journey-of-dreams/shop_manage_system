@@ -11,7 +11,9 @@
     "babel-preset-es2015": "^6.24.1",
     "core-js": "^3.6.5",
     "element-ui": "^2.15.1",
+    "loadsh": "^0.0.4",
     "vue": "^2.6.11",
+    "vue-quill-editor": "^3.0.6",
     "vue-router": "^3.5.1",
     "vue-table-with-tree-grid": "^0.2.4"
   },
