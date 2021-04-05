@@ -12,6 +12,8 @@ const Cate = () => import('@/components/home/goods/Cate')
 const Params = () => import('@/components/home/goods/Params')
 const List = () => import('@/components/home/goods/List')
 const Add = () => import('@/components/home/goods/Add')
+const Order = () => import('@/components/home/order/Order')
+const Report = () => import('@/components/home/report/Report')
 
 const routes = [{
         path: '',
@@ -66,6 +68,16 @@ const routes = [{
                 path: '/goods/add',
                 name: 'Add',
                 component: Add
+            },
+            {
+                path: '/orders',
+                name: 'Order',
+                component: Order
+            },
+            {
+                path: '/reports',
+                name: 'Report',
+                component: Report
             },
         ]
     },
